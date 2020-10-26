@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+
+    <head>
+        <title>Walujo Emmanuel | Back-end Developer | Portfolio</title>
+        <!-- Meta -->
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="A backend developer building delightfully awesome things. You can find out more about me, have a look at some things I&#039;ve built"/>
+        <meta name="keywords" content="Walujo Emmanuel, Software Developer, Programmer Portfolio, Developer Portfolio, Back-end Developer, Chatbot Developer, API Developer"/>
+        <meta name="revised" content="16/01/2018"/>
+        <meta name="google-site-verification" content="C8NcSfhcmMNnxGkXOLYjQV-qfvgD_QeGk4an9WSzZzw" />
+        <meta name="author" content="Walujo Emmanuel"/>
+
+        <meta property="og:title" content="Portfolio | Walujo Emmanuel - Back-end Web &amp; Software Developer" />
+        <meta property="og:description" content="A backend developer building delightfully awesome things. You can find out more about me, have a look at some things I&#039;ve built" />
+        <meta property="og:url" content="https://walujoemmanuel.github.io/portfolio/" />
+        <meta property="og:site_name" content="Portfolio | Walujo Emmanuel - Back-end Developer" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://walujoemmanuel.github.io/portfolio/launch.jpg" />
+
+        <!-- Twitter Cards Meta -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@WalujoEmmanuel" />
+        <meta name="twitter:creator" content="@WalujoEmmanuel" />
+        <meta name="twitter:url" content="https://walujoemmanuel.github.io/portfolio/" />
+        <meta name="twitter:title" content="Portfolio | Walujo Emmanuel - Back-end Developer" />
+        <meta name="twitter:description" content="A backend and sofware developer building delightfully awesome things. You can find out more about me, have a look at some things I&#039;ve built" />
+        <meta name="twitter:image" content="https://walujoemmanuel.github.io/portfolio/launch.jpg" />
+        <!-- end Meta -->
+
+        <link rel="shortcut icon" href="favicon.ico">
+        <!-- small devices icons -->
+        <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon.png">
+        <link rel="apple-touch-startup-image" href="launch.jpg">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="manifest.json">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#2b5797">
+        <meta name="theme-color" content="#ffffff">
+        <!-- XXXX -->
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <!-- Global CSS -->
+        <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+        <!-- Plugins CSS -->
+        <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+        <!-- github calendar css -->
+        <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css" />
+        <!-- github acitivity css -->
+        <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+        <!-- Theme CSS -->
+        <link id="theme-style" rel="stylesheet" href="assets/css/styles.min.css">
+        <!-- Github Calendar -->
+        <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+        <!-- xxx  -->
+        <!-- Google analytics Tracking Code -->
+        <script>
+            ( function( i, s, o, g, r, a, m ) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    ( i[r].q = i[r].q || [ ] ).push( arguments )
+                }, i[r].l = 1 * new Date();
+                a = s.createElement( o ),
+                        m = s.getElementsByTagName( o )[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore( a, m )
+            } )( window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga' );
+
+            ga( 'create', 'UA-96760282-1', 'auto' );
+            ga( 'send', 'pageview' );
+        </script>
+
+        <!-- For scrolling animation -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript">
+            $( document ).ready( function() {
+                $( window ).scroll( function() {
+                    if( $( this ).scrollTop() > 300 )
+                    {
+                        $( '#scroll' ).fadeIn();
+                    }
+                    else
+                    {
+                        $( '#scroll' ).fadeOut();
+                    }
+                } );
+                $( '#scroll' ).click( function() {
+                    $( "html, body" ).animate( { scrollTop: 0 }, 600 );
+                    return false;
+                } );
+            } );
+        </script>
+        <!---->
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org/",
+                "@type": "WebSite",
+                "name": "Walujo Emmanuel Portfolio",
+                "alternateName": "Back-End Web & Software Developer",
+                "url": "https://walujoemmanuel.github.io/portfolio/",
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "Walujo+Emmanuel+portfolio{search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <!-- BackToTop Button -->
+        <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+        <!-- ******HEADER****** -->
+        <header class="header">
+            <div class="container">
+                <img class="profile-image img-responsive pull-left" src="assets/images/profile.jpg" alt="Portfolio | Walujo Emmanuel - Back-end Developer" title="Portfolio | Walujo Emmanuel - Back-end Developer" height="200" width="200" style="box-shadow: 0px 0px 10px #888; border-radius: 100px 100px 100px 100px;"/>
+                <div class="profile-content pull-left">
+                    <h1 class="name">Walujo Emmanuel</h1>
+                    <h2 class="desc">Back-end Developer</h2>
+                    <ul class="social list-inline">
+                        <!-- <li><a href="#" target="_blank" title="View StackOverflow profile of Walujo Emmanuel"><i class="fa fa-stack-overflow"></i></a></li> -->
+                        <li><a href="https://github.com/WalujoEmmanuel" target="_blank" title="Github account of Walujo Emmanuel"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/walujo-emmanuel/" target="_blank" title="Linkedin Profile of Walujo Emmanuel"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/WalujoEmmanuel" target="_blank" title="Twitter account of Walujo Emmanuel"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/walujo.emmanuel" target="_blank" title="Facebook profile of Walujo Emmanuel"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/emmanuelwalujo/" target="_blank" title="Instagram profile of Walujo Emmanuel"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <!--//profile-->
+                <div class="pull-right">
+                    <a class="btn btn-cta-primary" href="mailto:walujoemmanuel@gmail.com" target="_blank" title="Mail to walujoemmanuel@gmail.com"><i class="fa fa-paper-plane"></i> Mail</a>&nbsp;
+                    <a class="btn btn-info" href="skype:live:.cid.5f8722c5c6c9671?chat" title="Contact Walujo Emmanuel using Skype"><i class="fa fa-skype"></i> CHAT</a>
+                </div>
+            </div>
+            <!--//container-->
+        </header>
+        <!--//header-->
+
+        <div class="container sections-wrapper">
+            <div class="row">
+                <div class="primary col-md-8 col-sm-12 col-xs-12">
+                    <section class="about section">
+                        <div class="section-inner">
+                            <h2 class="heading">About Me</h2>
+                            <div class="content">
+                                <p>
+                                    <b>Languages:</b> PHP, Javascript, Python.<br />
+                                    <b>Frameworks:</b> Node, Express, Codeiginiter, Laravel, Flask, WordPress, Django.<br/>
+                                    <b>Tools:</b> PostgreSQL, MySQL Workbench, PgAdmin, phpMyAdmin, Git, Bitbucket, GitHub.<br/>
+                                    <b>Editor Journey:</b> Sublime, Atom, VS Code, Vim, PHP Storm.<br/>
+                                    <b>Operating System:</b> Ubuntu, Linux, Windows, Macintosh<br/>
+                                </p>
+                                <p>
+                                    <b>Experience</b>
+                                </p>
+                                <p>
+                                    <b>Total Exp. - </b> 4+ Years<br>
+                                    <b>Current Employer - </b><a href="https://www.ainnop.com/" title="Senior Web Developer" target="_blank">Senior Web Developer, Ainnop, Kampala, Uganda</a><br>
+                                </p>
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </section>
+                    <!--//section-->
+
+                    <section class="latest section">
+                        <div class="section-inner">
+                            <h2 class="heading">Latest Projects</h2>
+                            <div class="content">
+
+                                <div class="item featured text-center">
+                                    <h3 class="title"><a href="http://nobelpals.ainnop.com/" target="_blank" title="Point of Sale">Point of Sale</a></h3>
+                                    <p class="summary">Order Meat &amp; Fish Online</p>
+                                    <div class="featured-image">
+                                        <a href="http://nobelpals.ainnop.com/" target="_blank" title="Point of Sale">
+                                            <img class="img-responsive project-image" src="assets/images/projects//ainnopos.png" alt="Knowledge Tribe" title="Point of Sale"/>
+                                        </a>
+                                        <div class="ribbon">
+                                            <div class="text">New</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="desc text-left">
+                                        <p><b>Technology Stack</b> - Shopify<br />
+                                        <b>Team Size - </b>2
+                                        </p>
+                                    </div>
+                                    <!--//desc-->
+                                    <a class="btn btn-cta-secondary" href="http://nobelpals.ainnop.com/" target="_blank" title="Point of Sale"><i class="fa fa-thumbs-o-up"></i> Back my project</a>
+                                </div>
+                                <!--//item-->
+
+                                <hr class="divider" />
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="" target="_blank">
+                                        <img class="img-responsive project-image" src="assets/images/projects/mlhud-app.png" alt="MLHUD App - Ministry of Lands Housing and Urban Development" title="MLHUD App - Ministry of Lands Housing and Urban Development" width="300" height="225"/>
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title"><a href="" target="_blank">MLHUD App - Ministry of Lands Housing and Urban Development</a></h3>
+                                        <p>Freelance Project - Network of dedicated &amp; highly qualified professionals allow you to make an informed choice about medical procedures.<br><strong>Technology Stack</strong> - PHP, Laravel, MySQL, Javascript, Git, Linux
+                                            <strong>Team Size - </strong> 1</p>
+                                        <p><a class="more-link" href="" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                    </div>
+                                    <!--//desc-->
+                                </div>
+                                <!--//item-->
+
+                                <hr class="divider" />
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="" target="_blank">
+                                        <img class="img-responsive project-image" src="assets/images/projects/mmacks.png" alt="MMACKS-Thumbnail" title="MMACKS" width="300" height="225"/>
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title"><a href="" target="_blank">MMACKS</a></h3>
+                                        <p>Freelance Project - Network of dedicated &amp; highly qualified professionals allow you to make an informed choice about medical procedures.<br><strong>Technology Stack</strong> - PHP, Laravel, MySQL, Javascript, Git, Linux
+                                            <strong>Team Size - </strong> 1</p>
+                                        <p><a class="more-link" href="" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                    </div>
+                                    <!--//desc-->
+                                </div>
+                                <!--//item-->
+
+                                <hr class="divider" />
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="" target="_blank">
+                                        <img class="img-responsive project-image" src="assets/images/projects/franklin-owar.png" alt="Franklin Owar-Thumbnail" title="Franklin Owar" width="300" height="225"/>
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title"><a href="" target="_blank">Franklin Owar</a></h3>
+                                        <p>Freelance Project - Network of dedicated &amp; highly qualified professionals allow you to make an informed choice about medical procedures.<br><strong>Technology Stack</strong> - PHP, Laravel, MySQL, Javascript, Git, Linux
+                                            <strong>Team Size - </strong> 1</p>
+                                        <p><a class="more-link" href="" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                    </div>
+                                    <!--//desc-->
+                                </div>
+                                <!--//item-->
+
+                                <hr class="divider" />
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="" target="_blank">
+                                        <img class="img-responsive project-image" src="assets/images/projects/my-tshirt.png" alt="My T-shirt-Thumbnail" title="My T-shirt" width="300" height="225"/>
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title"><a href="" target="_blank">My T-shirt</a></h3>
+                                        <p>Freelance Project - Network of dedicated &amp; highly qualified professionals allow you to make an informed choice about medical procedures.<br><strong>Technology Stack</strong> - PHP, Laravel, MySQL, Javascript, Git, Linux
+                                            <strong>Team Size - </strong> 1</p>
+                                        <p><a class="more-link" href="" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                    </div>
+                                    <!--//desc-->
+                                </div>
+                                <!--//item-->
+
+                                <hr class="divider" />
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="" target="_blank">
+                                        <img class="img-responsive project-image" src="assets/images/projects/saipali-sms.png" alt="SMS - Saipali School Management System-Thumbnail" title="SMS - Saipali School Management System" width="300" height="225"/>
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title"><a href="" target="_blank">SMS - Saipali School Management System</a></h3>
+                                        <p>Freelance Project - Network of dedicated &amp; highly qualified professionals allow you to make an informed choice about medical procedures.<br><strong>Technology Stack</strong> - PHP, Laravel, MySQL, Javascript, Git, Linux
+                                            <strong>Team Size - </strong> 1</p>
+                                        <p><a class="more-link" href="" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                    </div>
+                                    <!--//desc-->
+                                </div>
+                                <!--//item-->
+
+                                <hr class="divider" />
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="" target="_blank">
+                                        <img class="img-responsive project-image" src="assets/images/projects/saipali-infotech.png" alt="Website - Saipali Infotech-Thumbnail" title="Website - Saipali Infotech" width="300" height="225"/>
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title"><a href="" target="_blank">Website - Saipali Infotech</a></h3>
+                                        <p>Freelance Project - Network of dedicated &amp; highly qualified professionals allow you to make an informed choice about medical procedures.<br><strong>Technology Stack</strong> - PHP, Laravel, MySQL, Javascript, Git, Linux
+                                            <strong>Team Size - </strong> 1</p>
+                                        <p><a class="more-link" href="" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                    </div>
+                                    <!--//desc-->
+                                </div>
+                                <!--//item-->
+
+                                <hr class="divider" />
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="" target="_blank">
+                                        <img class="img-responsive project-image" src="assets/images/projects/swift-renting.png" alt="Swift Renting-Thumbnail" title="Swift Renting" width="300" height="225"/>
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title"><a href="" target="_blank">Swift Renting</a></h3>
+                                        <p>Freelance Project - Network of dedicated &amp; highly qualified professionals allow you to make an informed choice about medical procedures.<br><strong>Technology Stack</strong> - PHP, Laravel, MySQL, Javascript, Git, Linux
+                                            <strong>Team Size - </strong> 1</p>
+                                        <p><a class="more-link" href="" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                    </div>
+                                    <!--//desc-->
+                                </div>
+                                <!--//item-->
+
+                                <hr class="divider" />
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="" target="_blank">
+                                        <img class="img-responsive project-image" src="assets/images/projects/nairobi-city-county.png" alt="Nairobi City County-Thumbnail" title="Nairobi City County" width="300" height="225"/>
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title"><a href="" target="_blank">Nairobi City County</a></h3>
+                                        <p>Freelance Project - Network of dedicated &amp; highly qualified professionals allow you to make an informed choice about medical procedures.<br><strong>Technology Stack</strong> - PHP, Laravel, MySQL, Javascript, Git, Linux
+                                            <strong>Team Size - </strong> 1</p>
+                                        <p><a class="more-link" href="" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                    </div>
+                                    <!--//desc-->
+                                </div>
+                                <!--//item-->
+                                
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </section>
+                    <!--//section-->                    
+
+                    <section class="experience section">
+                        <div class="section-inner">
+                            <h2 class="heading">Work Experience</h2>
+                            <div class="content">
+                                <div class="item">
+                                    <h3 class="title">Senior Web Developer - <span class="place"><a href="">Freelancing.</a></span> <span class="year">(August 2019 – Present)</span></h3>
+                                    <p>APIs, Web applications and API integration<br><strong>Environment - </strong>Javascript, Node, Express, React, React Native, Linux, nginx, Git, GitHub, Bitbucket, MongoDB, PostgreSQL.</p>
+                                </div>
+                                <div class="item">
+                                    <h3 class="title">Web Application Developer - <span class="place"><a href="https://www.xaecia.com/">XAECIA.</a></span> <span class="year">(February 2019 – July 2019)</span></h3>
+                                    <p>Web Applications<br><strong>Environment - </strong>PHP, Codeiginiter, Javascript, Vue js, Node js, Express, Linux, PostgreSQL, Bitbucket, Git, MySQL, Apache Server, Wordpress.</p>
+                                </div>
+                                <div class="item">
+                                    <h3 class="title">Software Developer - <span class="place"><a href="https://www.tollandhaben.com/">Toll and Haben, Germany.</a></span> <span class="year">(February 2019 – July 2019)</span></h3>
+                                    <p>Web Application<br><strong>Environment - </strong>PHP, Codeiginiter, Smarty, D3.js, Javascript, Linux, Git, Bitbucket, MySQL, Apache Server, Continuous Deployment.</p>
+                                </div>
+                                <div class="item">
+                                    <h3 class="title">Software Developer - <span class="place"><a href="http://saipaliinfotech.com/">Saipali Infotech</a></span> <span class="year">(April 2018 – July 2018)</span></h3>
+                                    <p>Web application for company internal use<br><strong>Environment - </strong>PHP, Codeiginiter, MySQL, HTML, CSS, JS, Apache Server, Git, PHP, phpMyAdmin, Bitbucket.</p>
+                                </div>
+                                <div class="item">
+                                    <h3 class="title">Web Developer - <span class="place"><a href="https://viancaconsults.com/">Vianca Consults</a></span> <span class="year">(November 2017 – March 2018)</span></h3>
+                                    <p>Web application for company internal use - API integration and Workflow automation.<br><strong>Environment - </strong>Python, Flask, Django, HTML, CSS, JS, Git, GitHub, Bitbucket, PostgreSQL, PgAdmin.</p>
+                                </div>
+                                <div class="item">
+                                    <h3 class="title">Software & Web Developer Intern - <span class="place"><a href="">Mutual Cycler</a></span> <span class="year">(June 2017 – October 2017)</span></h3>
+                                    <p>Web Developer.<br><strong>Environment - </strong>PHP, MYSQL, phpMyAdmin, Git, Bitbucket</p>
+                                </div>
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </section>
+                    <!--//section-->
+
+                    <!--Github-->
+                    <!--<section class="github section">-->
+                        <!--<div class="section-inner">-->
+                            <!--<h2 class="heading">My GitHub</h2>-->
+                            <!--<p>My github contribution graph calendar</p>-->
+                            <!--&lt;!&ndash; Prepare a container for your calendar. &ndash;&gt;-->
+                            <!--<div class="calendar">-->
+                                <!--&lt;!&ndash; Loading stuff &ndash;&gt;-->
+                                <!--Loading the data just for you.-->
+                            <!--</div>-->
+                            <!--<script>-->
+                                <!--GitHubCalendar( ".calendar", "WalujoEmmanuel" );-->
+                            <!--</script>-->
+                            <!--&lt;!&ndash; <p>My GitHub activities</p>-->
+                                <!--//Usage: http://caseyscarborough.com/projects/github-activity/-->
+                                <!--<div id="ghfeed" class="ghfeed">-->
+                                <!--</div>-->
+                                <!--//ghfeed&ndash;&gt;-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash;//secton-inner&ndash;&gt;-->
+                    <!--</section>
+
+                    <!--//section-->
+                </div>
+                <!--//primary-->
+                <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                    <aside class="info aside section">
+                        <div class="section-inner">
+                            <h2 class="heading sr-only">Basic Information</h2>
+                            <div class="content">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Kitende, Kampala, Uganda</li>
+                                    <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:walujoemmanuel@gmail.com" title="Mail to walujoemmanuel@gmail.com">walujoemmanuel@gmail.com</a></li>                                    
+                                    <li><i class="fa fa-file-pdf-o"></i><span class="sr-only">Resume:</span><a href="https://drive.google.com/file/d/1w5gKriCuqPksP880Nr7iU4DOlYMudOoZ/view?usp=sharing" title="Download CV in pdf" target="_blank">Download CV</a></li>
+                                    <!-- <li><i class="fa fa-address-card fa-1"></i><span class="sr-only">Contact-us:</span><a href="https://goo.gl/forms/GhskUYtshdjGT7zAFts65" target="_blank" title="Contact Walujo Emmanuel">Contact Me</a></li> -->                                    
+                                </ul>
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </aside>
+                    <!--//aside-->
+
+                    <aside class="skills aside section">
+                        <div class="section-inner">
+                            <h2 class="heading">Skills</h2>
+                            <div class="content">
+                                <!-- <p class="intro">I have the following skills in programming</p> -->
+
+                                <div class="skillset">
+                                    <!--//item-->
+                                    <div class="item">
+                                        <h3 class="level-title">Javascript, Node &amp; Express<span class="level-label">Pro</span></h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="90%">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <div class="item">
+                                        <h3 class="level-title">PHP, Codeiginiter &amp; Laravel<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Expert</span></h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="75%">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <div class="item">
+                                        <h3 class="level-title">Python &amp; Django<span class="level-label">Intermediate</span></h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="60%">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
+
+                                    <div class="item">
+                                        <h3 class="level-title">Database<span class="level-label">Pro</span></h3>
+                                        <div class="level-bar">
+                                            <div class="level-bar-inner" data-level="80%">
+                                            </div>
+                                        </div>
+                                        <!--//level-bar-->
+                                    </div>
+                                    <!--//item-->
+                                    <p><a class="more-link" href="https://www.linkedin.com/in/walujo-emmanuel/" target="_blank"><i class="fa fa-external-link" title="View linkedin profile of Walujo Emmanuel"></i> More on Linkedin</a></p>
+                                </div>
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </aside>
+                    <!--//section-->
+
+                    <aside class="testimonials aside section">
+                        <div class="section-inner">
+                            <h2 class="heading">Testimonials</h2>
+                            <div class="content">
+                                <div class="item">
+                                    <blockquote class="quote">
+                                        <p><i class="fa fa-quote-left"></i>Emmanuel you are an Excellent team worker, we made our many assignments and projects together and you have put a lot of effort into it, Our efforts and teamwork brought us lot of appreciation, all the best Emmanuel.</p>
+                                    </blockquote>
+                                    <p class="source"><span class="name">Innocent Atwau Paul</span><br /><span class="title">Software Development Team lead – Ainnop</span></p>
+                                </div>
+                            </div>
+                            <!--//item-->
+                            <div class="item">
+                                <blockquote class="quote">
+                                    <p><i class="fa fa-quote-left"></i>Emmanuel is a pretty good developer and got a very good knowledge in development. Have ability to learn new things quicker. Have a great future ahead. Good luck.</p>
+                                </blockquote>
+                                <p class="source"><span class="name">Patrick Plath</span><br /><span class="title">CEO – Toll and Haben</span></p>
+                            </div>
+                            <!--//item-->
+                            <div class="item">
+                                <blockquote class="quote">
+                                    <p><i class="fa fa-quote-left"></i>Emmanuel is a very sincere and hard working professional. Who has versatile hands on - Github, Bitbucket, Javascript, PHP, Python, and Linux. Am sure he will add value to which ever organization he is working for. Good Luck!</p>
+                                </blockquote>
+                                <p class="source"><span class="name">Amit Srivastava</span><br /><span class="title">Director – Saipali Infotech.</span></p>
+                            </div>
+                            <!--//item-->
+                            <!-- <p><a class="more-link" href="https://www.linkedin.com/in/walujo-emmanuel/"><i class="fa fa-external-link" title="View linkedin profile of Walujo Emmanuel"></i> More on Linkedin</a></p> -->
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </aside>
+                    <!--//section-->
+
+                    <aside class="education aside section">
+                        <div class="section-inner">
+                            <h2 class="heading">Education</h2>
+                            <div class="content">
+                                <div class="item">
+                                    <h3 class="title"><i class="fa fa-graduation-cap"></i> Diploma in Software Engineering</h3>
+                                    <h4 class="university"><a href="">Saipali Institute Of Technology and Management – Kampala, Uganda</a><span class="year"> (2015 – 2017)</span></h4>
+                                </div>
+                                <!--//item-->
+                                <div class="item">
+                                    <h3 class="title"><i class="fa fa-graduation-cap"></i> Uganda Advanced Certificate of Education</h3>
+                                    <h4 class="university"><a href="">Bukoyo Secondary School – Iganga, Uganda</a><span class="year"> (2013 – 2014)</span></h4>
+                                </div>
+                                <!--//item-->
+                                <div class="item">
+                                    <h3 class="title"><i class="fa fa-graduation-cap"></i> Uganda Certificate of Education</h3>
+                                    <h4 class="university"><a href="">Shiloh High School – Jinja, Uganda</a><span class="year"> (2009 – 2012)</span></h4>
+                                </div>
+                                <!--//item-->
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </aside>
+                    <!--//section-->
+
+                    <aside class="languages aside section">
+                        <div class="section-inner">
+                            <h2 class="heading">Languages</h2>
+                            <div class="content">
+                                <ul class="list-unstyled">
+                                    <li class="item">
+                                        <span class="title"><strong>English:</strong></span>
+                                        <span class="level">Professional <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                                    </li>
+                                    <!--//item-->
+                                    <li class="item">
+                                        <span class="title"><strong>Luganda:</strong></span>
+                                        <span class="level">Native Speaker <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </aside>
+                    <!--//section-->
+
+                    <aside class="list music aside section">
+                        <div class="section-inner">
+                            <h2 class="heading">Coding Music Genre</h2>
+                            <div class="content">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-headphones"></i> <a href="https://en.wikipedia.org/wiki/Contemporary_classical_music" target="_blank">Contemporary Classical Music</a></li>
+                                    <li><i class="fa fa-headphones"></i> <a href="https://en.wikipedia.org/wiki/Psychedelic_music" target="_blank">Psychedelia</a></li>
+                                    <li><i class="fa fa-headphones"></i> <a href="https://en.wikipedia.org/wiki/Ambient_music" target="_blank">Ambient</a></li>
+                                </ul>
+                            </div>
+                            <!--//content-->
+                        </div>
+                        <!--//section-inner-->
+                    </aside>
+                    <!--//section-->
+                </div>
+                <!--//secondary-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//masonry-->
+        <!-- ******FOOTER****** -->
+        <footer class="footer">
+            <div class="container text-center">
+                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+            </div>
+            <!--//container-->
+        </footer>
+        <!--//footer-->
+        <!-- Javascript -->
+        <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+        <!-- github calendar plugin -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+        <!-- github activity plugin -->
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+        <!-- custom js -->
+        <script type="text/javascript" src="assets/js/main.js"></script>
+    </body>
+</html>
