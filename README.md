@@ -1,14 +1,18 @@
 # Emmanuel Walujo
-## Software Engineer | JavaScript, TypeScript, Node.js, React.js, AWS, PHP, Python, Go, SQL, NoSQL
+## Full Stack Developer | JavaScript, TypeScript, Node.js, React.js, AWS, PHP, Python, Go, SQL, NoSQL
 
-Senior Software Engineer with 7 years of experience in developing full-stack, scalable and high-performance applications using JavaScript, PHP, Python, and Go; delivering complex projects on time, and enhancing application performance.
+I am a Full Stack Developer with over 5 years of experience in building high-performance web applications. My expertise spans a wide range of technologies, including JavaScript, React, Node.js, and NestJS. I thrive on transforming complex challenges into elegant solutions that enhance user experiences and drive business success.
+
+I have a proven track record of leading projects from conception to deployment, focusing on scalability, performance, and maintainability. I am passionate about collaboration, mentoring, and I actively promote best practices in coding, testing, and deployment within teams. My goal is to continuously learn and adapt, leveraging the latest technologies to create impactful web applications.
 
 ## SKILLS
-    Languages: JavaScript, Python, PHP, Go, TypeScript, SQL
-    Frameworks and Libraries: Node.js, NestJs, React, Next.js, Vue, Angular, Django, Flask, Redux, Mocha, Cypress, Jest
-    Databases: MySQL, PostgreSQL, MongoDB, Redis, Cassandra
-    Tools & Platforms: Docker, Kubernetes, Jenkins, Git, AWS, GCP
-    Methodologies: Agile, Scrum, TDD, CI/CD
-    Learning: Project Management, Risk Management, and Technical Writing.
+    Languages: JavaScript (ES6+), TypeScript, Python, Go, HTML, CSS.
+    Frontend: React, Next.js, Redux, Bootstrap, Tailwind CSS, Material-UI, Sass.
+    Backend: Node.js, Express, NestJS, Flask, Django.
+    Databases: PostgreSQL, MongoDB, MySQL, Redis.
+    DevOps & Cloud: Docker, Kubernetes, AWS, Google Cloud Platform (GCP), Azure.
+    Testing Frameworks: Jest, Mocha, Cypress.
+    Tools: Webpack, Babel, Terraform, Ansible, Git.
+    Methodologies: Agile (Scrum, Kanban), CI/CD.
 
 I'm available for hire! Feel free to reach out at walujoemmanuel@gmail.com
